@@ -37,6 +37,12 @@
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/hassankhan/config" />
+      <path value="$PROJECT_DIR$/vendor/2bj/phanybar" />
+      <path value="$PROJECT_DIR$/vendor/codedungeon/phpunit-result-printer" />
+      <path value="$PROJECT_DIR$/vendor/codedungeon/php-cli-colors" />
     </include_path>
   </component>
   <component name="PhpUnit">

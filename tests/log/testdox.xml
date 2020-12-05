@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="ListingImageTest" methodName="testNoImage" prettifiedClassName="Listing Image" prettifiedMethodName="No image" status="4" time="0.003495099" size="-1" groups="default" exceptionLine="21" exceptionMessage="Call to undefined method ListingBasic::setImage()">
+    <group name="default"/>
+  </test>
+  <test className="ListingImageTest" methodName="testFullPathImage" prettifiedClassName="Listing Image" prettifiedMethodName="Full path image" status="4" time="0.000147482" size="-1" groups="default" exceptionLine="32" exceptionMessage="Call to undefined method ListingBasic::setImage()">
+    <group name="default"/>
+  </test>
+  <test className="ListingImageTest" methodName="testBuildPathImage" prettifiedClassName="Listing Image" prettifiedMethodName="Build path image" status="4" time="0.000128664" size="-1" groups="default" exceptionLine="44" exceptionMessage="Call to undefined method ListingBasic::setImage()">
+    <group name="default"/>
+  </test>
+</tests>

@@ -1,0 +1,26 @@
+<phpunit
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"
+>
+    <logging>
+        <testdoxXml outputFile="tests/logs/testdox.xml"/>
+        <testdoxHtml outputFile="tests/logs/testdox.html"/>
+        <text outputFile="tests/logs/logfile.txt"/>
+<!--        <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>-->
+    </logging>
+    <coverage
+            includeUncoveredFiles="true"
+            processUncoveredFiles="true"
+            pathCoverage="false"
+            ignoreDeprecatedCodeUnits="true"
+            disableCodeCoverageIgnore="true">
+        <include>
+            <directory suffix=".php">classes</directory>
+        </include>
+        <report>
+            <html outputDirectory="html-coverage" lowUpperBound="50" highLowerBound="90"/>
+            <text outputFile="coverage.txt" showUncoveredFiles="false" showOnlySummary="true"/>
+        </report>
+    </coverage>
+</phpunit>

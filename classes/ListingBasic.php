@@ -2,7 +2,7 @@
 
 class ListingBasic
 {
-    private $id, $title, $website, $email, $twitter;
+    private $id, $title, $website, $email, $twitter, $image;
     protected $status = 'basic';
 
     /**
@@ -167,6 +167,24 @@ class ListingBasic
         $this->status = trim(filter_var($value, FILTER_SANITIZE_STRING));
     }
 
+    public function setImage($value)
+    {
+        $prefix = strpos($value, 'http');
+        if ($prefix !== false) {
+            $this->image = $value;
+        } else if ($value == '') {
+            $this->image = false;
+        } else {
+            $this->image = '//' . $value;
+        }
+
+    }
+
+    public function getImage()
+    {
+        return $this->image;
+    }
+
     /**
      * Convert the current object to an associative array of parameters
      * @return array of object parameters
@@ -175,4 +193,5 @@ class ListingBasic
     {
         return get_object_vars($this);
     }
+
 }

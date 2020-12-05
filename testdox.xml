@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="ListingBasicTest" methodName="createListingBasicMustReceiveDataArgumentMessage" prettifiedClassName="Listing Basic" prettifiedMethodName="Create listing basic must receive data argument message" status="0" time="0.003281253" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingBasicTest" methodName="setValuesMustReceiveIdMessage" prettifiedClassName="Listing Basic" prettifiedMethodName="Set values must receive id message" status="0" time="0.000111576" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingBasicTest" methodName="setValuesMustReceiveTitleMessage" prettifiedClassName="Listing Basic" prettifiedMethodName="Set values must receive title message" status="0" time="0.000109391" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingBasicTest" methodName="listingBasicObjectIsCreated" prettifiedClassName="Listing Basic" prettifiedMethodName="Listing basic object is created" status="0" time="0.000257836" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingBasicTest" methodName="checkGetStatusReturnsBasic" prettifiedClassName="Listing Basic" prettifiedMethodName="Check get status returns basic" status="0" time="0.000308069" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingBasicTest" methodName="checkGetProperties" prettifiedClassName="Listing Basic" prettifiedMethodName="Check get properties" status="0" time="0.000103049" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingBasicTest" methodName="checktoArray" prettifiedClassName="Listing Basic" prettifiedMethodName="Checkto array" status="0" time="0.000265005" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingFeaturedTest" methodName="checkGetStatus" prettifiedClassName="Listing Featured" prettifiedMethodName="Check get status" status="0" time="0.000338239" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingFeaturedTest" methodName="checkGetCoc" prettifiedClassName="Listing Featured" prettifiedMethodName="Check get coc" status="0" time="0.000107706" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingImageTest" methodName="testNoImage" prettifiedClassName="Listing Image" prettifiedMethodName="No image" status="0" time="0.000224706" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingImageTest" methodName="testFullPathImage" prettifiedClassName="Listing Image" prettifiedMethodName="Full path image" status="0" time="9.105E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingImageTest" methodName="testBuildPathImage" prettifiedClassName="Listing Image" prettifiedMethodName="Build path image" status="0" time="9.367E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingPremiumTest" methodName="checkGetStatus" prettifiedClassName="Listing Premium" prettifiedMethodName="Check get status" status="0" time="0.000100551" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="ListingPremiumTest" methodName="checkGetDescription" prettifiedClassName="Listing Premium" prettifiedMethodName="Check get description" status="0" time="8.934E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+</tests>

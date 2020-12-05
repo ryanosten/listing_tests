@@ -6,6 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Collection' => $baseDir . '/classes/Collection.php',
+    'Connection' => $baseDir . '/classes/Connection.php',
+    'ListingBasic' => $baseDir . '/classes/ListingBasic.php',
+    'ListingFeatured' => $baseDir . '/classes/ListingFeatured.php',
+    'ListingInactive' => $baseDir . '/classes/ListingInactive.php',
+    'ListingPremium' => $baseDir . '/classes/ListingPremium.php',
     'PHPUnit\\Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => $vendorDir . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
     'PHPUnit\\Framework\\Assert' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert.php',
