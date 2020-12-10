@@ -187,5 +187,38 @@ class ListingBasicTest extends TestCase
             $listingBasic->getWebsite()
         );
 
+        $newListingBasic = new ListingBasic($this->data);
+
+        $newListingBasic->setWebsite(null);
+
+        $this->assertEquals(
+            null,
+            $newListingBasic->getWebsite()
+        );
+
+    }
+
+    /** @test */
+    function testSetStatus()
+    {
+        unset($this->data['website']);
+        $listingBasic = new ListingBasic($this->data);
+
+        $listingBasic->setStatus('');
+
+        $this->assertEquals(
+            'basic',
+            $listingBasic->getStatus()
+        );
+
+        $newListingBasic = new ListingBasic($this->data);
+
+        $newListingBasic->setStatus('premium');
+
+        $this->assertEquals(
+            'premium',
+            $newListingBasic->getStatus()
+        );
+
     }
 }

@@ -13,7 +13,6 @@
       <change beforePath="$PROJECT_DIR$/html-coverage/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-coverage/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html-coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-coverage/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/ListingBasicTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ListingBasicTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ListingPremiumTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ListingPremiumTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/logs/logfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logs/logfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/logs/testdox.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logs/testdox.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/logs/testdox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logs/testdox.xml" afterDir="false" />
@@ -38,8 +37,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/tests/ListingBasicTest.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="823">
-                    <caret line="186" column="27" lean-forward="true" selection-start-line="186" selection-start-column="27" selection-end-line="186" selection-end-column="39" />
+                  <state relative-caret-position="810">
+                    <caret line="219" column="39" selection-start-line="219" selection-start-column="39" selection-end-line="219" selection-end-column="39" />
                   </state>
                 </provider>
               </entry>
@@ -63,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/ListingBasic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1605">
-              <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+            <state relative-caret-position="-281">
+              <caret line="102" column="34" lean-forward="true" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -268,12 +267,12 @@
       <workItem from="1606872113787" duration="2862000" />
       <workItem from="1607202973510" duration="596000" />
       <workItem from="1607391979540" duration="662000" />
-      <workItem from="1607562570786" duration="2257000" />
+      <workItem from="1607562570786" duration="2838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19936000" />
+    <option name="totallyTimeSpent" value="20517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1709" y="23" width="1681" height="1097" extended-state="0" />
@@ -399,15 +398,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/ListingBasic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        <state relative-caret-position="-281">
+          <caret line="102" column="34" lean-forward="true" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ListingBasicTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="186" column="27" lean-forward="true" selection-start-line="186" selection-start-column="27" selection-end-line="186" selection-end-column="39" />
+        <state relative-caret-position="810">
+          <caret line="219" column="39" selection-start-line="219" selection-start-column="39" selection-end-line="219" selection-end-column="39" />
         </state>
       </provider>
     </entry>
