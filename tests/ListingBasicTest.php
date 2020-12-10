@@ -46,6 +46,36 @@ class ListingBasicTest extends TestCase
     }
 
     /** @test */
+    function checkSetValues() {
+        $listingBasic = new ListingBasic($this->data);
+
+        $newData = [
+            'id' => '2',
+            'title' => 'newtitle',
+            'website' => 'newwebsite',
+            'email' => 'newemail',
+            'twitter' => 'newtwitter',
+            'status' => 'newstatus',
+            'image' => 'newimage'
+        ];
+
+        $listingBasic->setValues($newData);
+
+        $this->assertEquals(
+            [
+                'id' => '2',
+                'title' => 'newtitle',
+                'website' => 'http://newwebsite',
+                'email' => 'newemail',
+                'twitter' => 'newtwitter',
+                'status' => 'newstatus',
+                'image' => '//newimage'
+            ],
+            $listingBasic->toArray()
+        );
+    }
+
+    /** @test */
     function listingBasicObjectIsCreated()
     {
         $minimumData = [
@@ -127,6 +157,34 @@ class ListingBasicTest extends TestCase
             ],
             $listingBasic->toArray(),
             "array does not match"
+        );
+
+    }
+
+    /** @test  */
+    function testSetImage()
+    {
+        $listingBasic = new ListingBasic($this->data);
+
+        $listingBasic->setImage('https://test.com');
+
+        $this->assertEquals(
+            'https://test.com',
+            $listingBasic->getImage()
+        );
+    }
+
+    /** @test */
+    function testSetWebsite()
+    {
+        unset($this->data['website']);
+        $listingBasic = new ListingBasic($this->data);
+
+        $listingBasic->setWebsite('http://newwebsite.com');
+
+        $this->assertEquals(
+            'http://newwebsite.com',
+            $listingBasic->getWebsite()
         );
 
     }

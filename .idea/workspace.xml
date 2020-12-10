@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="530748d1-4d9a-4fb1-ae3b-f6c212c9f60c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-coverage/Collection.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-coverage/Collection.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-coverage/Connection.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-coverage/Connection.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-coverage/ListingBasic.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-coverage/ListingBasic.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-coverage/ListingFeatured.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-coverage/ListingFeatured.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-coverage/ListingInactive.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-coverage/ListingInactive.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-coverage/ListingPremium.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-coverage/ListingPremium.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-coverage/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-coverage/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-coverage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ListingBasicTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ListingBasicTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ListingPremiumTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ListingPremiumTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/logs/logfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logs/logfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/logs/testdox.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logs/testdox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/logs/testdox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logs/testdox.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +30,28 @@
       <executable />
     </execution>
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/tests/ListingBasicTest.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="823">
+                    <caret line="186" column="27" lean-forward="true" selection-start-line="186" selection-start-column="27" selection-end-line="186" selection-end-column="39" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpunit.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -37,20 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/logs/testdox.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/ListingBasic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="1605">
+              <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/ListingBasic.php">
+        <entry file="file://$PROJECT_DIR$/tests/ListingImageTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="59" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -70,10 +93,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/ListingBasicTest.php">
+        <entry file="file://$PROJECT_DIR$/classes/ListingPremium.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="92" column="28" selection-start-line="91" selection-end-line="92" selection-end-column="28" />
+            <state relative-caret-position="90">
+              <caret line="6" column="76" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -81,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/ListingPremiumTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="525">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -114,14 +137,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/tests/ListingPremiumTest.php" />
         <option value="$PROJECT_DIR$/tests/ListingFeaturedTest.php" />
         <option value="$PROJECT_DIR$/tests/ListingImageTest.php" />
         <option value="$PROJECT_DIR$/classes/ListingBasic.php" />
-        <option value="$PROJECT_DIR$/tests/ListingBasicTest.php" />
         <option value="$PROJECT_DIR$/testing.php" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/tests/ListingPremiumTest.php" />
+        <option value="$PROJECT_DIR$/tests/ListingBasicTest.php" />
       </list>
     </option>
   </component>
@@ -171,7 +194,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="142" />
+    <option name="x" value="-1709" />
     <option name="y" value="23" />
     <option name="width" value="1681" />
     <option name="height" value="1097" />
@@ -188,6 +211,21 @@
             <path>
               <item name="listings_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="listings_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="listings_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="listings_test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="listings_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="listings_test" type="462c0819:PsiDirectoryNode" />
+              <item name="html-coverage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="listings_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="listings_test" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,18 +267,19 @@
       <workItem from="1606785885869" duration="2716000" />
       <workItem from="1606872113787" duration="2862000" />
       <workItem from="1607202973510" duration="596000" />
-      <workItem from="1607391979540" duration="146000" />
+      <workItem from="1607391979540" duration="662000" />
+      <workItem from="1607562570786" duration="2257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17163000" />
+    <option name="totallyTimeSpent" value="19936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="23" width="1681" height="1097" extended-state="0" />
+    <frame x="-1709" y="23" width="1681" height="1097" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12324588" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1799878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -268,24 +307,10 @@
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/ListingPremium.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/ListingFeatured.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ListingImageTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -296,6 +321,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/logs/testdox.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -303,20 +331,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/logs/testdox.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/logs/testdox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/ListingBasic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -329,20 +347,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/config.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ListingBasicTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="28" selection-start-line="91" selection-end-line="92" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ListingPremiumTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ListingFeaturedTest.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -362,6 +366,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ListingImageTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/ListingPremium.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="76" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-coverage/ListingBasic.php.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ListingPremiumTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/ListingBasic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ListingBasicTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="186" column="27" lean-forward="true" selection-start-line="186" selection-start-column="27" selection-end-line="186" selection-end-column="39" />
         </state>
       </provider>
     </entry>

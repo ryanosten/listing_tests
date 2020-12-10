@@ -41,4 +41,14 @@ class ListingPremiumTest extends TestCase
             'ListingPremium getStatus not working'
         );
     }
+
+    /** @test */
+    public function checkDisplayAllowedTags()
+    {
+        $this->assertEquals(
+            htmlspecialchars('<p><br><b><strong><em><u><ol><ul><li>'),
+            $this->listingPremium::displayAllowedTags()
+        );
+    }
+
 }
